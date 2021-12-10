@@ -135,7 +135,7 @@ button {
 .contacts .link {
   color: var(--secondary-text-color);
 
-  font-weight: normal;
+  font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
@@ -308,6 +308,9 @@ button {
 .leader-title > .item:last-child {
   margin-right: 0;
 }
+.icon-item + .icon-item {
+  margin-left: 10px;
+}
 .team {
   background-color: #f5f4fa;
 
@@ -337,6 +340,8 @@ button {
   line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
+  margin-top: 0;
+  margin-bottom: 50px;
 
   color: var(--primary-text-color);
 }
@@ -415,7 +420,7 @@ button {
 
   font-family: Roboto;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -563,13 +568,16 @@ button {
   align-items: center;
   color: var(--primary-white-color);
   background-color: var(--primary-bg-icon);
-  margin-right: 10px;
 }
 
 .follow-icon:hover,
 .follow-icon:focus {
   background-color: var(--accent-color);
 }
+.follow-list + .follow-list {
+  margin-left: 10px;
+}
+
 .network-icon {
   fill: currentColor;
   width: 20px;
